@@ -6,6 +6,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap-grid.min.css" integrity="sha512-cKoGpmS4czjv58PNt1YTHxg0wUDlctZyp9KUxQpdbAft+XqnyKvDvcGX0QYCgCohQenOuyGSl8l1f7/+axAqyg==" crossorigin="anonymous" />
         <link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
     </head>
     <body>
 
@@ -13,29 +14,54 @@
         
         <header>
             <div class="container">
-                <div class="col-sm-2"><div style="float: left"><img class="img-responsive" src="assets/images/UCBE130-logo.png" /></div></div>
+                <div class="col-sm-1"><div style="float: left"><a href="index.html"><img class="img-responsive" src="assets/images/ucbe130-logo.png" /></a></div></div>
                 
                 <div style="float: right">
-                    <nav>
+                    
+                    
+
+                        <div class="main-menu">
+                    
+
+                            <br><div class="dropdown" id="menuToggle">
+                                <div class="bar1"></div>
+                                <div class="bar2"></div>
+                                <div class="bar3"></div>
+                                </div>
+                            <nav id="main-navigation">
+
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="1891-1910.html">1891-1910</a></li>
-                    <li><a href="1911-1930.html">1911-1930</a></li>
-                    <li><a href="1931-1950.html">1931-1950</a></li>
-                    <li><a href="1951-1970.html">1951-1970</a></li>
-                    <li><a href="1971-1990.html">1971-1990</a></li>
-                    <li><a href="1991-2020.html">1991-2020</a></li>
-                    <li><a href="2021.html">2021</a></li>
+                    <br><li><a href="1891-1910.html">1891-1910</a></li>
+                    <br><li><a href="1911-1930.html">1911-1930</a></li>
+                    <br><li><a href="1931-1950.html">1931-1950</a></li>
+                    <br><li><a href="1951-1970.html">1951-1970</a></li>
+                    <br><li><a href="1971-1990.html">1971-1990</a></li>
+                    <br><li><a href="1991-2020.html">1991-2020</a></li>
+                   <br> <li><a href="2021.html">2021</a></li>
                 </ul>
-            </nav></div>
+            </nav></div></div>
             <div style="clear: both;"></div>
         </header>
+
+
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script>
+  $(document).ready(function() {
+    $('#menuToggle').on('click', function() {
+      var mainNav = $('#main-navigation');
+
+      mainNav.slideToggle();
+      
+    });
+  });
+</script>
 
 
     </div>
 
 
-        <img class="hero" src="assets/images/Campanile_1200_KeeganHouse (Hero).jpeg" />
+        <img class="hero" src="assets/images/campanile-1200-keegan-house-Hero.jpeg" />
        
        
        <div class="container">
@@ -43,44 +69,51 @@
         <div class="row">
             <div class="col-sm-7">
         <p>
-            In 1891, Berkeley faculty started teaching courses in history, philosophy, mathematics and English to the public in San Francisco, with great success (over 800 learners in the first fall semester). This initiative came to life as a reaction to calls from the Californian people to make the university’s education offerings more accessible and to fully embrace its mission as a land grant university. Indeed, until today, the University of California is bound “to serve society as a center of higher learning, providing long-term societal benefits through transmitting advanced knowledge, discovering new knowledge, and functioning as an active working repository of organized knowledge”​1​. For the founders of the university’sExtension, this mission meant providing access to learners of all ages and as a consequence, they pioneered the uniquely American concept of lifelong learning through continuing education. In fact, the name of ‘lifelong learning’ was coined by one ofExtension’s first deans, Sean J. Richardson. </p>
+            In 1891, Berkeley faculty started teaching courses in history, philosophy, mathematics and English to the public in San Francisco, with great success (over 800 learners in the first fall semester). This initiative came to life as a reaction to calls from the Californian people to make the university’s education offerings more accessible and to fully embrace its mission as a land grant university. Indeed, until today, the University of California is bound “to serve society as a center of higher learning, providing long-term societal benefits through transmitting advanced knowledge, discovering new knowledge, and functioning as an active working repository of organized knowledge”​1​. For the founders of the university’s Extension, this mission meant providing access to learners of all ages and as a consequence, they pioneered the uniquely American concept of lifelong learning through continuing education. In fact, the name of ‘lifelong learning’ was coined by one of Extension’s first deans, Sean J. Richardson. </p>
 
-<p>The reason for the creation of the University of California as well as its Extension in the late 19th century, was to accelerate the economic development of California to catch up with the roaring industrialization on the East Coast (Picture 1). However, before Extension was born, the university consisted only of a few posh buildings and a theater on a remote hill, in the vicinity of the sleepy East Bay town of Berkeley (Picture 2). Privileged sons and daughters of wealthy families were studying and preparing themselves for high level positions in research, politics, public administration, and business. With the idea to give access to its excellent educational offerings to people of all ages, who would attend a single course at a time, while working, Extension breached the gap of academia and professional world, and created one the most advanced and successful continuing education department in history.
+<br><p>The reason for the creation of the University of California as well as its Extension in the late 19th century, was to accelerate the economic development of California to catch up with the roaring industrialization on the East Coast (Picture 1). However, before Extension was born, the university consisted only of a few posh buildings and a theater on a remote hill, in the vicinity of the sleepy East Bay town of Berkeley (Picture 2). Privileged sons and daughters of wealthy families were studying and preparing themselves for high level positions in research, politics, public administration, and business. With the idea to give access to its excellent educational offerings to people of all ages, who would attend a single course at a time, while working, Extension breached the gap of academia and professional world, and created one the most advanced and successful continuing education department in history.
         </p>
     </div>
 
 
-<div class="col-sm-5"><p class="caption"><img class="img-responsive" src="assets/images/Figure 1 Our Roots.png" />
+<div class="col-sm-5"><p class="caption"><img class="our-roots-fig-1" src="assets/images/figure-1-our-roots.png" />
     Figure 1: Market Street in San Francisco 1868, showing only early stages of industrialization (e.g. few factories, sailing ships, horse carriages).</p>
-<p class="caption"><img class="img-responsive" src="assets/images/Figure 2 Our Roots.png" />Figure 2: UC Berkeley 1890, showing the first buildings.</p></div>
+<br><p class="caption"><img class="our-roots-fig-1" src="assets/images/figure-2-our-roots.png" />Figure 2: UC Berkeley 1890, showing the first buildings.</p></div>
 </div>
 
+<br><br>
         <h1>Our Reach<hr></h1>
         <div class="row">
             <div class="col-sm-7">
         <p>
-            The central concept of Extension, as envisioned by it’s first proponents, notably the two UC Presidents, Edward S. Holden and Horace Davis, has always been the accessibility to the courses offered by our instructors. Consequently, Extension courses took place where the learners worked and lived, not on the remote campus in Berkeley. After the immediate success of its first courses, the regents officially adopted an extramural instruction plan that formally established the University Extension on Valentine’s Day, February 14, 1893.The concept of accessibility and the willingness to go towards the learners led Extension to constantly innovate new ways of reaching learners, for example, in 1928 Extension teaches on commuter trains, in 1945 Extension taught over 26,000 learners via its correspondence courses, in 1994 Extension ventures into online education and in 2012 Extension creates the UC’s first online course production department BRCO. 
+            The central concept of Extension, as envisioned by it’s first proponents, notably the two UC Presidents, Edward S. Holden and Horace Davis, has always been the accessibility to the courses offered by our instructors. Consequently, Extension courses took place where the learners worked and lived, not on the remote campus in Berkeley. After the immediate success of its first courses, the regents officially adopted an extramural instruction plan that formally established the University Extension on Valentine’s Day, February 14, 1893. The concept of accessibility and the willingness to go towards the learners led Extension to constantly innovate new ways of reaching learners, for example, in 1928 Extension teaches on commuter trains, in 1945 Extension taught over 26,000 learners via its correspondence courses, in 1994 Extension ventures into online education and in 2012 Extension creates the UC’s first online course production department BRCO. 
         </p>
         <p>
             Today, in part due to the global pandemic, Extension has developed the capacity to reach learners beyond the bay area with live instruction. Learners from anywhere in the world are now able to join our courses and we can help them, to launch or change their careers, to support their families, and share their knowledge and the Berkeley mindset.
         </p></div>
         
-        <div class="col-sm-3"> <p class="caption"><img class="img-responsive" src="assets/images/Horace Davis.png" />Horace Davis </p> </div>
-        <div class="col-sm-2"> <p class="caption"><img class="img-responsive" src="assets/images/Edward S. Holden.png" />Edward S. Holden</p> </div>
+        <div class="col-sm-3"> <p class="caption"><img class="horace-davis" src="assets/images/horace-davis.png" />Horace Davis </p> </div>
+        <div class="col-sm-2"> <p class="caption"><img class="img-responsive" src="assets/images/edward-holden.png" />Edward S. Holden</p> </div>
 
         </div>
      </div>
 
+
+     <br><br><br><br><br>
     <footer>
         <div class="container">
             <div id="textbox">
-            <div class="col-sm-1"><div style="float: left"><img class="img-responsive" src="assets/images/UCBE130-logo.png" /></div></div>
-            © 2021 UC Berkeley Extension
+            <div class="col-sm-4"><div style="float: left"><br><br><a href="https://extension.berkeley.edu/"><img class="img-responsive" src="assets/images/ucbx-logo.png" /></a></div></div>
+            
 
-        <div style="float: right"><p class="address">1995 University Ave., Suite 200
-            <br>Berkeley, CA 94704-7000
-                <br>extension-business@berkeley.edu
-                </p>
+        <div style="float: right"><p class="social">
+            <a href="https://www.facebook.com/UCBerkeleyExtension/"><i class="zmdi zmdi-facebook"></i></a>&nbsp;&nbsp;
+            <a href="https://www.instagram.com/ucberkeleyext/"><i class="zmdi zmdi-instagram"></i></a>&nbsp;&nbsp;
+                <a href="https://www.linkedin.com/school/ucberkeleyextension/"><i class="zmdi zmdi-linkedin"></i></a>&nbsp;&nbsp;
+                    <a href="https://www.youtube.com/channel/UC20sZe5RHww1skkZmDdHC-w"><i class="zmdi zmdi-youtube-play"></i></a>&nbsp;&nbsp;
+                    <a href="https://twitter.com/UCBerkeleyExt"><i class="zmdi zmdi-twitter"></i></a></p>
+            <p>&copy; 2021 UC Berkeley Extension</p>
+            
                 </div>
         </div>
         <div style="clear: both;"></div>

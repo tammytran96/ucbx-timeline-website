@@ -28,6 +28,13 @@
 
 }
 
+.logo {
+  width: 100px;
+    height: auto;
+    display: block;
+    padding: 5px;
+}
+
 
 a:visited { 
   text-decoration: none; 
@@ -196,7 +203,7 @@ header {
   display: block;
   width: 100%;
   position: ;
-  top: 0;
+  top: 0px;
   text-align: right;
   padding: 3px;
   background-color: #FDB515;
